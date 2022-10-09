@@ -41,7 +41,8 @@ fn watch<P: AsRef<Path>>(path: P) -> notify::Result<()> {
 
     for res in rx {
         match res {
-            // Ok(event) => println!("changed: {:?}", event),
+            // If there is a match execute the logevent function with the event::notify::Event as
+            // input 
             Ok(event) => logevent(event),
             Err(e) => println!("watch error: {:?}", e),
         }
