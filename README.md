@@ -394,6 +394,6 @@ If you are interested in the binary, this can be found at the `./target/debug`fo
 
 ## Conclusions
 
-First of all, this is a helpful exercise, but isn't near the level of a `Pro Rust Master`. Things that I learned here is that Rust is really well-thought language, works well when you like Object Oriented Programming and first lines of code are there within a hour. I really love the community attention and I'm confident that Rust is the way to modernise the Linux Kernel future.
+First of all, this is a helpful exercise, but isn't near the level of a `Pro Rust Master`. Things that I learned here is that Rust is really well-thought language, works well when you like Object Oriented Programming and first lines of code are there within a hour. I really love the community attention and I'm confident that Rust is the way to modernise the Linux Kernel future. As always keep in mind that there are differences in Rust editions 2015, 2018 and 2021. So always look into the documentation / references before trusting Stackoverflow ;).
 
 Hopefully you have enjoyed this tutorial and Goodbye Rustacean!
