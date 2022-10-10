@@ -392,7 +392,7 @@ touch /tmp/secret
 
 ### Releasing your fs-watcher application
 
-If you are interested in the binary, this can be found at the './target/debug' folder.  First thing to notice is the large binary size of the file. This is because the binary is build in Debug mode. To ensure a smaller binary you can release your application with an additional flag.
+If you are interested in the binary, this can be found at the `'./target/debug'` folder.  First thing to notice is the large binary size of the file. This is because the binary is build in Debug mode. To ensure a smaller binary you can release your application with an additional flag.
 
 ```
 cargo build --release
