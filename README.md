@@ -1,5 +1,5 @@
 # fs-watcher Tutorial
-Today I finally made some time to play around with Rust. Lately you may have heard a lot of good news around this programming language, such as `Rust` has been accepted to come and being used for Linux kernel development. This means you can expect more Linux kernel features being written in Rust over C, which is the traditional language of choice. This triggered me to dive further into `Rust`.
+Last weekend I finally made some time to play around with Rust. Lately you may have heard a lot of good news around this programming language, such as `Rust` has been accepted to come and being used for Linux kernel development. This means you can expect more Linux kernel features being written in Rust over C, which is the traditional language of choice. This triggered me to dive further into `Rust`.
 
 To learn more I started my journey with visiting the [Rust Programming Language | Getting Started ](https://www.rust-lang.org/learn/get-started) page. For a first glance you may want to visit the [Rust Playground](https://play.rust-lang.org/), but I learn you to setup a Rust development environment locally. Installing Rust is very easy with a tool called `Rustup`, which is used for installation and version management. I also added a prereqs section below, since this is a common issue when `builds fail`. 
 
