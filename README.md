@@ -390,7 +390,18 @@ cargo run /tmp/secret &
 touch /tmp/secret
 ```
 
-If you are interested in the binary, this can be found at the `./target/debug`folder. Just copy over `fs-watcher` and execute it directly from the CLI like `/tmp/fs-watcher /tmp/secret`.
+### Releasing your fs-watcher application
+
+If you are interested in the binary, this can be found at the './target/debug' folder.  First thing to notice is the large binary size of the file. This is because the binary is build in Debug mode. To ensure a smaller binary you can release your application with an additional flag.
+
+```
+cargo build --release
+```
+
+After this build a new  `'./target/release'` folder is created, with the binary which is ready for use and reduced in size.
+Now just copy over **fs-watcher** and execute it directly from the CLI like `'/tmp/fs-watcher /tmp/secret'`.
+
+If you want to know more about reducing the binary size I can recommend the following repository from a fellow Rustacean  here [Minimal Sized Rust](https://github.com/johnthagen/min-sized-rust).
 
 ## Conclusions
 
